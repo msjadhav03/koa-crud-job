@@ -1,0 +1,35 @@
+{
+  "name": "koa-crud",
+  "version": "1.0.0",
+  "description": "CRUD for Koa Node.js Framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start":"node server.js",
+    "dev":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msjadhav03/koa-crud-job.git"
+  },
+  "keywords": [
+    "Koa",
+    "CRUD",
+    "Node.js",
+    "Webapplication",
+    "framework"
+  ],
+  "author": "Manisha Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msjadhav03/koa-crud-job/issues"
+  },
+  "homepage": "https://github.com/msjadhav03/koa-crud-job#readme",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-parser": "^1.0.8",
+    "koa-router": "^12.0.0",
+    "pg": "^8.11.2",
+    "sequelize": "^6.32.1"
+  }
+}
